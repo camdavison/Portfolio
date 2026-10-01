@@ -55,7 +55,8 @@ body {
   font-weight: 700;
 }
 
-.nav-link.w--current {
+.nav-link.w--current,
+.nav-link[aria-current="page"] {
   color: var(--alert);
   font-size: 14px;
   font-weight: 800;
