@@ -2727,19 +2727,11 @@ body {
 
 .selected-projects-effect {
   z-index: -1;
-  opacity: 0 !important;
   filter: saturate(200%) blur(6px);
   width: 100%;
   height: 100%;
-  pointer-events: none;
-  transition: opacity .2s ease;
   position: absolute;
   transform: translate(0, 5px);
-}
-
-.collection-item:hover > .selected-projects-effect,
-.collection-item:focus-within > .selected-projects-effect {
-  opacity: 1 !important;
 }
 
 .div-block-127 {
