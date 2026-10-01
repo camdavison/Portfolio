@@ -55,10 +55,6 @@ body {
   font-weight: 700;
 }
 
-.nav-link:visited {
-  color: #fff;
-}
-
 .nav-link.w--current {
   color: var(--alert);
   font-size: 14px;
@@ -4138,10 +4134,6 @@ body {
   .nav-link {
     margin-top: 16px;
     font-size: 16px;
-  }
-
-  .nav-link:visited {
-    color: var(--dark-slate-blue);
   }
 
   .container {
